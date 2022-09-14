@@ -38,6 +38,7 @@ a:hover{
 .nav-container{
     position: fixed;
     left: 0;
+    width: auto;
     margin: 10px;
     height: 100vh;
     margin: 0px;
@@ -82,17 +83,17 @@ a:hover{
 
 @media screen and (max-width:1170px){
     .main{
-        margin-left: 50px;
+        margin-left: 80px;
     }
 }
 
 @media screen and (max-width:1000px){
     .main{
-        margin-left: 100px;
+        margin-left: 120px;
     }
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:900px){
     .app{
         flex-direction: column;
         overflow: hidden;
@@ -106,7 +107,6 @@ a:hover{
         flex: 1;
         margin-top: 90px;
         margin-left: 0px;
-        margin-right: 10px;
     }
 
     .nav-container{
@@ -280,9 +280,7 @@ a:hover{
     .coin-detail-container{
         margin: 0;
     }
-}
-@media screen and (max-width: 500px){
-    .heading{
+     .heading{
         margin-top: 20px;
     }
 }
@@ -295,7 +293,9 @@ a:hover{
 }
 .news-image-container{
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
 }
 .news-title{
 width: 70%;
@@ -357,6 +357,7 @@ width: 70%;
 }
 .crypto-card-container{
     min-height: 65vh !important;
+    justify-content: center;
 }
 .crypto-card{
     min-width: 250px;

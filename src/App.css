@@ -161,15 +161,15 @@ a:hover{
 
 .stats-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 40px;
+    margin-top: 20px;
 }
 
-.stats-container h2{
+.stats-container h3{
     font-weight: 700;
     font-size: 1.4rem;
-    margin-top: 20px;
     color: var(--pink);
 }
 

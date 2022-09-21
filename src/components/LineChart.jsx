@@ -27,7 +27,6 @@ const LineChart = ({ coinHistory, currentPrice, coinName }) => {
         label: 'Price in USD',
         data: coinPrice.reverse(),
         backgroundColor: '#0071bd',
-        fill: false,
         borderColor: '#0071bd'
       }
     ]
